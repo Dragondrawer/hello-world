@@ -102,7 +102,7 @@ var hex = 0x0000ff
 
 var arrowHelper = new THREE.ArrowHelper( dir, origin, length, hex );
 scene.add( arrowHelper );
-var dir = new THREE.Vector3( 2, 2, 0);
+var dir = new THREE.Vector3( 1.9, 2, 0);
 //normalize the direction vector (convert to vector of length 1)
 dir.normalize();
 
